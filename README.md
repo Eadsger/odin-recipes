@@ -8,13 +8,14 @@ This project involves building a basic recipe website using HTML. The primary go
 
 The project is organized as follows:
 
+```
 /project-folder
 |-- index.html
 |-- recipes
 | |-- recipe1.html
 | |-- recipe2.html
 | |-- recipe3.html
-
+```
 
 - **index.html**: Main page with links to different recipes.
 - **recipes**: Folder containing individual HTML files for each recipe.
