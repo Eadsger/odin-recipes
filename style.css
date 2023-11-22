@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #66ccff;
+    padding: 1em;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    margin: 0;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #66ccff;
+}
+
+ul, ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+/* Adding a custom bullet point */
+li::before {
+    content: '\2022'; /* Unicode character for a bullet point */
+    color: #66ccff;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    position: absolute;
+}
+
+/* Hover effect for list items */
+li:hover {
+    background-color: #f2f2f2;
+    border-radius: 4px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    section {
+        margin: 10px;
+        padding: 10px;
+    }
+}
