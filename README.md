@@ -37,8 +37,11 @@ Upon completing this project, I will have demonstrated the following skills:
 2. Open `index.html` in a web browser.
 3. Navigate to different recipes using the provided links.
 
-## Future Improvements
+## Changes Made
 
-While the current version focuses on HTML, future iterations of this project will involve adding CSS to enhance the visual appeal and overall design of the recipe website.
+- Added external CSS for styling.
+- Improved overall layout and design.
+- Customized list item appearance.
+- Added hover effect for better user interaction.
 
 Happy coding!
